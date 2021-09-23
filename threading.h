@@ -8,9 +8,10 @@
 class Threading : public QThread
 {
 public:
-    Threading();
+    //Threading();
     void run();
     QStringList rezultat;
+    QString paths;
 
 private:
 

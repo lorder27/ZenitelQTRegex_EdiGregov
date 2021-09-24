@@ -2,7 +2,7 @@
 [<img src="/regex.jpeg" width="320" height="180">]
 
 
-# Project Guidelines &middot; 
+# Project Summary 
 
 <hr>
 

@@ -1,5 +1,5 @@
 
-[<img src="/regex.jpeg" width="320" height="180">]
+<img src="/regex.jpeg" width="320" height="180">
 
 
 # Project Summary 

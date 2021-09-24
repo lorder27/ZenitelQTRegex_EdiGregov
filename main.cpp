@@ -15,9 +15,7 @@ int main(int argc, char** argv)
     cout << "Input filepath (or filename if in the same folder as the excutable: " << endl;
     QTextStream s(stdin);
     QString path = s.readLine();
-    QTextStream result;
     QString resultStr;
-
 //The file path is passed to the Threading class and a separate thread is started.
     Threading threadSecondary;
     threadSecondary.paths = path;
@@ -35,7 +33,7 @@ int main(int argc, char** argv)
     }
 //Dispalys the matched regex values
     if (!threadSecondary.rezultat.empty()){
-    cout << endl << resultStr.toStdString();
+    cout << endl << "Valid matches: " << endl << endl << resultStr.toStdString();
     }
     return a.exec();
 }

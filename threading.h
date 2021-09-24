@@ -1,9 +1,6 @@
 #ifndef THREADING_H
 #define THREADING_H
-
 #include <QtCore>
-#include "parser.h"
-
 
 class Threading : public QThread
 {

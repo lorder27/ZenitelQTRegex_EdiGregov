@@ -1,10 +1,6 @@
 #ifndef PARSER_H
 #define PARSER_H
-#include <QString>
 #include <QtCore>
-
-#include "threading.h"
-
 
 class Parser
 {
